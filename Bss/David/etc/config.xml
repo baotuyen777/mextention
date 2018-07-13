@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <section_product>
+            <group_price>
+                <price>16</price>
+            </group_price>
+        </section_product>
+        <section_general>
+            <group_general>
+                <pre_notify>Bss notice </pre_notify>
+            </group_general>
+        </section_general>
+    </default>
+</config>

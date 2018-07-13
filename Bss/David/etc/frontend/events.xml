@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="bss_david_display_text">
+        <observer name="bss_change_price" instance="Bss\David\Observer\ChangeDisplayText" />
+    </event>
+    <!--<event name="catalog_controller_product_view">-->
+        <!--<observer name="CloudwaysProductData" instance="Bss\David\Observer\Product\Data" />-->
+    <!--</event>-->
+    <!--<event name="checkout_cart_product_add_after">-->
+        <!--<observer name="customprice" instance="Bss\David\Observer\ChangePrice" />-->
+    <!--</event>-->
+    <event name="catalog_product_get_final_price">
+        <observer name="customprice1" instance="Bss\David\Observer\ChangePrice" />
+    </event>
+</config>

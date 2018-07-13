@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="change_product1" type="Bss\David\Plugin\Product" sortOrder="1" disabled="true"/>
+    </type>
+    <type name="Magento\Framework\Message\Manager">
+        <plugin name="change_notify1" type="Bss\David\Plugin\Notify" sortOrder="1" disabled="false"/>
+    </type>
+</config>
